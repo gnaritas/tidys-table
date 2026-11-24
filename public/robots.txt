@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tidys-table-demo.up.railway.app/sitemap.xml
+
+# DEMO HOST NOTE: this preview host carries a meta robots noindex tag on every
+# page; the X-Robots-Tag header from the server repeats that at HTTP level.
+# When the site is deployed to the owner's production domain, drop the noindex
+# meta tags and the X-Robots-Tag header so Google can index the shop.
