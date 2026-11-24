@@ -90,6 +90,8 @@ nav a[aria-current="page"]{background:var(--ink);color:var(--cream)}
 }
 .btn:hover{background:var(--butter-deep);color:#fff;border-color:var(--butter-deep)}
 .btn.ghost{background:transparent;box-shadow:none}
+/* inline buttons inside prose paragraphs stack on narrow screens: give the row wrap breathing room */
+main p > a.btn{margin-bottom:12px}
 .btn.ghost:hover{background:var(--ink);color:var(--cream)}
 
 /* ---------- bands ---------- */
